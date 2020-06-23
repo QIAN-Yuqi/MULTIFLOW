@@ -1,4 +1,4 @@
-# MULTIFLOW_LavaFlow_Model
+# MULTIFLOW
 
 Program description: the MULTIFLOW lava flow model performs flow routing on a digital elevation model (DEM) according to the multislope drainage routing algorithm. Multislope is the most laterally dispersive of flow routing algorithms, partitioning flow to all downslope cells in proportion to their local slope. A single calculation results in a map of 'influence', which MULTIFLOW then thresholds according to an empirical function to produce a flow of finite length. 
 
@@ -30,6 +30,8 @@ http://www.gnu.org/licenses.
 2. Download topotoolbox and 2DSpecTools
 3. execute the Matlab file MULTIFLOW_example_run.m
 
+### Reference
+Richardson, P., Karlstrom, L. The multi-scale influence of topography on lava flow morphology. Bull Volcanol 81, 21 (2019). https://doi.org/10.1007/s00445-019-1278-9
 
 
 
