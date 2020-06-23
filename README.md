@@ -1,4 +1,4 @@
-# MULTIFLOW_lava_flow_model README
+# MULTIFLOW_LavaFlow_Model
 
 Program description: the MULTIFLOW lava flow model performs flow routing on a digital elevation model (DEM) according to the multislope drainage routing algorithm. Multislope is the most laterally dispersive of flow routing algorithms, partitioning flow to all downslope cells in proportion to their local slope. A single calculation results in a map of 'influence', which MULTIFLOW then thresholds according to an empirical function to produce a flow of finite length. 
 
